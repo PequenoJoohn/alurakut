@@ -5,6 +5,16 @@ const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
 `
 
+const Box = styled.div`
+  background: #FFFFFF;
+  border-radius: 8px;
+`;
+
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+    <main>
+
+
+    </main>
+  )
 }
